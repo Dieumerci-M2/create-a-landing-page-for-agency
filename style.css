@@ -1,0 +1,194 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.all{
+  margin : 0% 1%;
+}
+p {
+  padding-left: 20px 30px;
+  text-align: center;
+  font-size: small;
+}
+.position{
+  background: url(./images/desktop/image-header.jpg)     center/cover; 
+  height: 300px;
+  padding: 20px;
+}
+.pomme{
+  background: url(./images/desktop/image-graphic-design.jpg) center/cover; 
+   height: 400px;
+}
+footer{
+  margin: 0% 1%;
+  height: 135px;
+  background-color: #94daca
+}
+.orange{
+  background: url(./images/desktop/image-photography.jpg) center/cover; 
+   height: 400px;
+}
+.grid-contener{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+}
+.flexbox1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.flexbox1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 20px;
+}
+.flexbox1 div img {
+  border-radius: 50px;
+  width: 40px;
+}
+.flexbox2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.flexbox3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  height: 130px;
+}
+.gauche{
+  width:40%;
+}
+.droite{
+  width: 40%;
+}
+.sunnyside{
+  width: 10px;
+  
+}
+#about{
+  color: white;
+  font-size: 10px; 
+  position: absolute;
+  top: 5%;
+  right: 48%;
+}
+
+#services{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 5%;
+  right: 38%;
+}
+#project{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 5%;
+  right: 28%;
+}
+#contact{
+  color: white;
+  font-size: 10px;
+  width: 45px;
+  height: 10px;
+  padding:3px;
+  position: absolute;
+  top: 5%;
+  right: 6%;
+}
+#contact:hover {
+  color: black;
+  border: 2px solid white;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 8px;
+  border-radius: 15px;
+}
+#creatives{
+  color:white;
+  position: absolute;
+  top: 20%;
+  left: 43%;
+}
+.arrow{
+  position : absolute;
+  top: 30%;
+  right:50%;
+}
+.sunnyside{
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+.transform{
+  padding: 20% 10% 0% 30%;
+  
+}
+.stand{
+  padding: 20% 25% 0% 10%;
+  
+}
+.coupe{
+    height: 100%;
+  }
+.pomme{
+ 
+}
+h6{
+  text-align: center;
+  padding : 40px;
+}
+.strong{
+  font-weight: bold;
+}
+.space{
+  padding:40px;
+}
+.flexbox4{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+  .middle{
+    display: flex;
+    justify-content: space-around;
+    font-size : 7px;
+    margin-bottom: 5px;
+  }
+  .sunny {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size : 13px;
+  }
+ .flexbox5{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+  .flexbox5 img{
+    padding: 8px;
+  }
+  .middle span{
+    padding: 10px;
+  }
